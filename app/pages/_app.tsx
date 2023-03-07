@@ -1,4 +1,5 @@
 import '@/styles/globals.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import createEmotionCache from '@/utils/createEmotionCache';
 import theme from '@/utils/theme';
 import { ChakraProvider } from '@chakra-ui/react';
