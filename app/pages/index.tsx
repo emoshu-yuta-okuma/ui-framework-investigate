@@ -1,6 +1,7 @@
 import { Container } from '@chakra-ui/react';
 import Head from 'next/head';
 import Chakra from '@/components/Chakra';
+import Mui from '@/components/Mui';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Container maxW={1000} py={4}>
         <Chakra />
+        <Mui />
       </Container>
     </>
   );
